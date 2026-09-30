@@ -1,0 +1,28 @@
+# Dependências
+node_modules/
+
+# Arquivos de Build / Compilação
+dist/
+build/
+
+# Variáveis de Ambiente e Segredos
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Editor e Sistema Operacional
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Migrações locais do Drizzle (caso queira versionar o histórico, comente a linha abaixo)
+# /drizzle/
